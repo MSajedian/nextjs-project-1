@@ -1,5 +1,11 @@
+import styles from '../styles/Home.module.css'
+
 const About = () => {
-    return ( <h1>About</h1> );
+    return (
+        <div className={styles.container}>
+            <h1>About Page</h1>
+        </div>
+    );
 }
- 
+
 export default About;

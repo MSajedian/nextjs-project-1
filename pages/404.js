@@ -8,7 +8,7 @@ const NotFound = () => {
   useEffect(() => {
     setTimeout(() => {
       router.push("/")
-    }, 3000);
+    }, 5000);
     // eslint-disable-next-line
   }, [])
 
